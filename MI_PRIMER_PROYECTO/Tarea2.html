@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cuenta</title>
+    <link rel="stylesheet" href="CSS.WEB/css/Tarea2.css">
+</head>
+
+<body class="fondo">
+    <center>
+        <header>
+            <h1><em>Peliculas de Primera</em></h1>
+        </header>
+        <main>
+            <h2> Crear Usuario</h2>
+            <section>
+                <form action="">
+                    <label for="Nombre"> Nombre:</label><br>
+                    <input type="text" name="Nombre" value="Ej: Diego"><br>
+                    <label for="Apellido"> Apellido:</label><br>
+                    <input type="text" id="Apellido" name="Apellido" value="Ej: Messi"><br>
+                    <label for="fecha_nac">Fecha de nacimiento:</label><br>
+              <input id="fecha_nac" type="date" value="2000-01-01" name="nacimiento"
+                title="La fecha en la que naciste. Este dato no aparecerá públicamente.">
+            </section><br>
+            <section>
+            <div class="caja">
+                <label for="correo">Correo Electrónico:</label><br>
+                <input id="correo" type="email" placeholder="usuario@dominio.com" size="40"
+                    title="Escribe tu correo electrónico habitual. A este correo te enviaremos todas las comunicaciones de socio."
+                    required=""><br>
+                <label for="correo">Confirmar Correo:</label><br>
+                <input id="correo" type="email" placeholder="usuario@dominio.com" size="40"
+                    title="Confirma tu correo electrónico. A este correo te enviaremos todas las comunicaciones de socio."
+                    required="">
+                 </div>
+            </section><br>
+            <section>
+                <label for="psw">Contraseña:</label><br>
+                <input type="password" size="12" placeholder="**********************"><br>
+                <label for="psw">Repetir contraseña:</label><br>
+                <input type="password" size="12" placeholder="**********************"><br><br>
+            </section>
+            <button>Enviar</button>
+            </form>
+        </main>
+</body>
+</center>
+
+</html>
